@@ -13,62 +13,133 @@
  *= require_tree .
  *= require_self
  */
-header{
-  width:100%;
-  height:70px;
-  background-color:#EC715F;
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
 }
 
-.container{
-  width:1024px;
-  margin:auto;
+.container {
+  width: 1024px;
+  margin: auto;
 }
 
-.header-group{
+.header-group {
   display: flex;
-  height:70px;
+  justify-content:space-between;
+  font-size:0;
 }
 
-.logo{
-  height:70px;
+.logo {
+  height: 70px;
 }
 
-.nav-list{
-  font-size:16px;
+.nav-list {
+  font-size: 16px;
   color: #FAFAFA;
-  padding:0 30px;
-  width:120px;
-  line-height:70px;
-  list-style:none;
+  padding: 0 30px;
+  width: 120px;
+  line-height: 70px;
+  list-style: none;
 }
 
-.nav{
+.nav {
   display: flex;
-  text-align:center;
 }
 
-.mv{
-  background-image:url(img/mv.png);
-  width:100%;
-  height:650px;
+.mv {
+  background-image: url(img/mv.png);
+  width: 100%;
+  height: 650px;
   background-size: cover;
   background-position: center;
   text-align: center;
+  color: #FAFAFA;
 }
 
-.container{
-  width:1024px;
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.mv-title {
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.mv-text {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.portfolio {
+  background-color: #eceff1;
+}
+
+.portfolio-title{
+  font-size:32px;
+  color:#000000;
+  text-align:center;
+  padding-top:90px;
+}
+
+.portfolio-title::after{
+  content:"";
+  background-color:#EC715F;
+  width:70px;
+  height:3px;
+  display:block;
+  margin:8px auto 0 auto;
+}
+
+.portfolio-text{
+  font-size:10px;
+  color:#000000;
+  text-align:center;
+  padding-top:30px;
+}
+
+.portfolio-image {
+  width:920px;
+  padding:30px 0 90px 0;
   margin:0 auto;
+  display: flex;
+  flex-flow:row wrap;
 }
 
-.mv-title{
-  color: #FAFAFA;
-  font-size:64px;
-  padding-top:200px;
+.portfolio-images {
+  width:300px;
+  height:250px;
+  padding:30px 0 90 px;
+  background-size: cover;
+  background-position: center;
+  margin:10px 10px 0 0;
 }
 
-.mv-text{
-  color: #FAFAFA;
-  font-size:20px;
-  padding-top:10px;
+.portfolio-images:nth-child(3n) {
+  margin-right:0;
+}
+
+.image1{
+  background-image: url(img/sketch.jpg);
+}
+
+.image2{
+  background-image: url(img/websuku.png);
+}
+
+.image3{
+  background-image: url(img/write.jpg);
+}
+
+.image4{
+  background-image: url(img/webcamp.png);
+}
+
+.image5{
+  background-image: url(img/talk.jpg);
+}
+
+.image6{
+  background-image: url(img/webcamp-mother.png);
 }
