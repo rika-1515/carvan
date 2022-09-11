@@ -143,3 +143,161 @@ header {
 .image6{
   background-image: url(img/webcamp-mother.png);
 }
+
+.feature-title{
+  font-size:32px;
+  color:#000000;
+  text-align:center;
+  padding-top:90px;
+  margin:0;
+}
+
+.feature-title::after{
+  content:"";
+  background-color:#EC715F;
+  width:70px;
+  height:3px;
+  display:block;
+  margin:8px auto 0 auto;
+}
+
+.feature-text{
+  font-size:10px;
+  color:#000000;
+  text-align:center;
+  padding:30px 0;
+}
+
+.strength-group{
+  display:flex;
+  flex-flow:row wrap;
+  text-align:center;
+  padding-bottom:90px;
+}
+
+.strength{
+  width:320px;
+  height:auto;
+}
+
+.strength:nth-child(2n){
+  padding:0 10px;
+}
+
+.strength-title{
+  font-size:20px;
+  color:#000000;
+  margin:0;
+  padding:10px 0;
+}
+
+.strength-text{
+  font-size:16px;
+  color:#000000;
+}
+
+.profile{
+  background-color:#ECEFF1;
+}
+
+.profile-title{
+  font-size:32px;
+  color:#000000;
+  text-align:center;
+  padding-top:90px;
+  margin:0;
+}
+
+.profile-title::after{
+  content:"";
+  background-color:#EC715F;
+  width:70px;
+  height:3px;
+  display:block;
+  margin:8px auto 0 auto;
+}
+
+.profile-text{
+  font-size:10px;
+  color:#000000;
+  text-align:center;
+  padding:30px 0;
+}
+
+.profile-group{
+  display:flex;
+  padding-bottom:90px;
+}
+
+.left-content{
+  width:50%;
+}
+
+.myface{
+  background-image:url(img/my-icon.jpg);
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+  margin:0 auto;
+}
+
+.right-content{
+  width:50%;
+}
+
+.description-title{
+  font-size: 20px;
+  margin:20px 0 5px 0;
+}
+
+.description-title:first-child{
+  margin-top: 0;
+}
+
+.description-text{
+  font-size: 16px;
+  margin:0;
+}
+
+.contact-title{
+  font-size:32px;
+  color:#000000;
+  text-align:center;
+  padding-top:90px;
+  margin:0;
+}
+
+.contact-title::after{
+  content:"";
+  background-color:#EC715F;
+  width:70px;
+  height:3px;
+  display:block;
+  margin:8px auto 0 auto;
+}
+
+.contact-text{
+  font-size:10px;
+  color:#000000;
+  text-align:center;
+  padding:30px 0;
+}
+
+.contact-group{
+  display:flex;
+  padding-bottom:90px;
+}
+
+footer{
+  width:100%;
+  height:60px;
+  background-color: #EC715F;
+  line-height: 60px;
+}
+
+
+.copyright{
+  font-size:16px;
+  color:#FAFAFA;
+  text-align:center;
+}
