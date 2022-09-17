@@ -65,6 +65,7 @@ header {
 .mv-title {
   font-size: 64px;
   padding-top: 200px;
+  margin:0;
 }
 
 .mv-text {
@@ -81,6 +82,7 @@ header {
   color:#000000;
   text-align:center;
   padding-top:90px;
+  margin:0;
 }
 
 .portfolio-title::after{
@@ -93,7 +95,7 @@ header {
 }
 
 .portfolio-text{
-  font-size:10px;
+  font-size:16px;
   color:#000000;
   text-align:center;
   padding-top:30px;
@@ -162,7 +164,7 @@ header {
 }
 
 .feature-text{
-  font-size:10px;
+  font-size:16px;
   color:#000000;
   text-align:center;
   padding:30px 0;
@@ -182,6 +184,10 @@ header {
 
 .strength:nth-child(2n){
   padding:0 10px;
+}
+
+.strength .fa{
+  font-size:60px;
 }
 
 .strength-title{
@@ -218,7 +224,7 @@ header {
 }
 
 .profile-text{
-  font-size:10px;
+  font-size:16px;
   color:#000000;
   text-align:center;
   padding:30px 0;
@@ -277,15 +283,40 @@ header {
 }
 
 .contact-text{
-  font-size:10px;
+  font-size:16px;
   color:#000000;
   text-align:center;
   padding:30px 0;
 }
 
+.under{
+  text-decoration: underline;
+}
+
 .contact-group{
   display:flex;
+  width:800px;
   padding-bottom:90px;
+  margin:0 auto;
+}
+
+.left-content-content{
+  width:130px;
+  margin:0 auto;
+}
+
+.right-content-content{
+  width:200px;
+  margin:0 auto;
+}
+
+.right-content-content .fa{
+  font-size:50px;
+  margin-right:20px;
+}
+
+.right-content-content .fa:last-child{
+  margin-right:0px;
 }
 
 footer{
