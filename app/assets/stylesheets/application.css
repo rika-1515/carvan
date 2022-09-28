@@ -382,20 +382,33 @@ footer{
     display: block;
     padding:initial;
   }
-  
+
   .portfolio-images {
     padding:initial;
     background-size: cover;
     background-position: center;
     margin-right: 0px;
   }
-  
+
   .portfolio-images:nth-child(3n) {
     margin-right:initial;
   }
 
   .image1,.image3,.image5 {
     display:none
+  }
+
+  .strength-group {
+    display: block;
+    padding:initial;
+  }
+
+  .strength {
+    text-align: center;
+  }
+  
+  .strength:nth-child(2n) {
+    padding: 10px ;
   }
 
 
