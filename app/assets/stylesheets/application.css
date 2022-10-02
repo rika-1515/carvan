@@ -381,6 +381,8 @@ footer{
   .portfolio-image {
     display: block;
     padding:initial;
+    width: 300px;
+    margin: 0 auto;
   }
 
   .portfolio-images {
@@ -401,14 +403,44 @@ footer{
   .strength-group {
     display: block;
     padding:initial;
+    width: 320px;
+    margin: 0 auto;
   }
 
   .strength {
     text-align: center;
+    margin-top: 10px;
+    margin-right: 0px;
   }
-  
+
   .strength:nth-child(2n) {
     padding: 10px ;
+  }
+
+  .profile-group{
+    display:block;
+    padding-bottom:90px;
+    text-align:center;
+  }
+
+  .left-content{
+    width:100%;
+  }
+
+  .right-content{
+    width:100%;
+  }
+
+  .description-title:first-child {
+    margin-top: 20px;
+  }
+
+  .description-title{
+    margin: 20px 0 5px 0;
+  }
+
+  .description-text{
+    margin: 20px 0 5px 0;
   }
 
 
