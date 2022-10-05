@@ -435,14 +435,23 @@ footer{
     margin-top: 20px;
   }
 
-  .description-title{
-    margin: 20px 0 5px 0;
-  }
-
   .description-text{
-    margin: 20px 0 5px 0;
+    margin: 5px 0 20px 0;
   }
 
+  .contact-group{
+    display:block;
+    text-align:center;
+    width:90%;
+  }
+
+  .right-content-content .fa{
+    margin-right: 8px;
+  }
+  
+  ..right-contact-content .fa:last-child{
+    margin-right: 0
+  }
 
 }
 
